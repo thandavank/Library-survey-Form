@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+.library{
+    padding: 30px 0;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.heading h1{
+    font-size: 26px;
+    color: #001858;
+    margin-bottom: 14px;   
+}
+.heading span{
+    font-size: 16px;
+    color: #092880;
+}
+
+/* 3forms */
+.form1 input{
+    display: block;
+    margin-bottom: 20px;
+    width: 290px;
+    height: 20px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    /* box-shadow: 5px 5px #8bd3dd; */
+}
+.form1 label{
+    font-size: 17px;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: #092880;
+}
+.form2 p{
+    font-size: 17px;
+    margin-bottom: 14px;
+    color: #092880;;
+}
+
+/* circule */
+.circule{
+    overflow:hidden;
+    margin: 0 auto;
+    background-color: #f3d2c1;
+    width:900px;
+    border-radius: 20px;
+    padding: 26px 0 26px 26px;
+     box-sizing: border-box;
+}
+
+/* select */
+.form2 select .Select1{
+    display: block;
+    width: 50px;
+    height: 10px;
+    padding: 195px 10px;
+    border-radius: 20px;
+}
+select{
+    margin-bottom: 20px;
+}
+
+/* Radio 1 2 */
+.form3 p{
+    font-size: 17px;
+    margin-bottom: 14px;
+    color: #092880;
+}
+.form3 input{
+   margin-bottom: 10px;
+}
+.Radio1{
+    margin-bottom: 20px;
+}
+.form4 p{
+    font-size: 17px;
+    margin-bottom: 14px;
+    color: #092880;
+}
+.form4 input{
+   margin-bottom: 10px;
+}
+.Radio2{
+    margin-bottom: 20px;
+}
+
+/* Checkbox */
+.form5 p{
+    font-size: 17px;
+    margin-bottom: 14px;
+    color: #092880;
+}
+.form5 input{
+    margin-bottom: 10px;
+}
+.allcheckbox{
+    margin-bottom: 20px;
+}
+
+/* Message */
+.messages-inner p{
+    font-size: 17px;
+    margin-bottom: 14px;
+    color: #092880;
+}
+.messages-inner textarea{
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.message{
+    margin-bottom: 20px;
+}
+
+/* Submit Button */
+.button a{
+    font-size: 17px;
+    padding: 24px 60px;
+    border-radius: 30px;
+    display: inline-block;
+    color: #001858;
+    background-color: rgb(243, 115, 206);
+    /* margin-bottom: 30px; */
+}
